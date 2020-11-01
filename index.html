@@ -1,18 +1,24 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <title>programacion para internet </title>
-    <script src="//cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js"></script>
-    <style type="text/css">
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>TRABAJO 3</title>
+    <style>
         body {
             margin: 0;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%
         }
     </style>
 </head>
 
 <body>
+<<<<<<< HEAD
     <!--<script>
         var config = {
             type: Phaser.WEBGL,
@@ -293,7 +299,7 @@
                     diff = paddle.x - ball.x;
                     ball.setVelocityX(-10 * diff);
                 } else if (ball.x > paddle.x) {
-                    //  Ball is on the right-hand side of the paddle
+                    //  Ball is on the right-hand side of the paddldde
                     diff = ball.x - paddle.x;
                     ball.setVelocityX(10 * diff);
                 } else {
@@ -325,6 +331,14 @@
 
         var game = new Phaser.Game(config);
     </script>
+=======
+    <!-- CDN Link to Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.js"></script>
+    
+    <!--reference your JS file here. Mine looks like below-->
+    <script src="./index.js"></script>
+    
+>>>>>>> ec64db370768188a78f2e1c0f9b02ad877787c47
 </body>
 
 </html>
